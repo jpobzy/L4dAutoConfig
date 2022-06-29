@@ -1,11 +1,19 @@
 # L4dAutoConfig 
 
-## Instructions
-1. **Please read through each cfg file in order to fully understand what each command is doing
+## Backing up your current config
+1. Go to your Left 4 Dead 2 installation directory `.../steam/steamapps/common/Left 4 Dead/left4dead/`
+2. Right-click the `cfg` folder and click `Send to >> Compressed (zipped) folder`
+3. This folder will be your backup folder in the event you want to revert back to your original settings
+4. If you choose to do so, delete the `cfg` folder and extract the zipped `cfg` folder
+
+
+
+ ## Instructions 
+1. **Please read through each cfg file in order to fully understand what each command is doing**
 2. Copy the files and folders into your games directory: `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
 3. Launch Steam, Library
 4. L4D2 Steam Launch Options: `Right-click Left 4 Dead >> Properties >> General >> LAUNCH OPTIONS`
-5. Copy and paste the following line into the box: '-novid -console -high -nojoy -useallavailablecores +mat_motion_blur_percent_of_screen_max 0
+5. Copy and paste the following line into the box: `-novid -console -high -nojoy -useallavailablecores +mat_motion_blur_percent_of_screen_max 0`
 
 
 
@@ -18,6 +26,11 @@
 | -useallavailablecores       | Forces CPU to use all the cores for gaming                   |
 | +mat_motion_blur_percent_of_screen_max 0 | Disables screen being blurred during high motion scenes |
 
+
+<br />
+<br />
+
+## Optional Sttings 
 The following settings are optional to use as well: `-lv -noforcemaccel -noforcemspd -noforcemparms`
 
 | Optional Settings           | Description                                                  |
@@ -27,6 +40,11 @@ The following settings are optional to use as well: `-lv -noforcemaccel -noforce
 | -noforcemspd                | Forces the operating system mouse speed                      |
 | -noforcemparms              | Forces the operating system mouse parameters                 |
 
+<br />
+<br />
+
+
+## Video Settings
 6. Launch Left 4 Dead and optimize video settings: `Options >> Video`
 
 | Setting                     | Value                       | Description                                                 | 
@@ -44,7 +62,7 @@ The following settings are optional to use as well: `-lv -noforcemaccel -noforce
 | MULTICORE RENDERING         | Enabled                            | Forces CPU to use all cores                          |
 | PAGED POOL MEMORY AVAILABLE | High                               | Maps will load quicker the higher the value          |
 
-
+7. When you launch the game console should automatically be open, copy and paste `exec config_default.cfg; exec autoexec.cfg`
 
 
 
