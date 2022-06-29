@@ -17,7 +17,13 @@
 | -nojoy                      | Disables joystick support                                    |
 | -useallavailablecores       | Forces CPU to use all the cores for gaming                   |
 | +mat_motion_blur_percent_of_screen_max 0 | Disables screen being blurred during high motion scenes |
-| --------------------------- | ------------------------------------------------------------ |
-| Optional Settings           | These settings are for those with low end PC's               |
+
+The following settings are optional to use as well: '-lv -noforcemaccel -noforcemspd -noforcemparms'
+
+| Optional Settings           | Description                                                  |
 | --------------------------- | ------------------------------------------------------------ |
 | -lv                         | Forces the game to launch in low violence mode: no blood/scary effects |
+| -noforcemaccel              | Forces the operating system mouse acceleration               |
+| -noforcemspd                | Forces the operating system mouse speed                      |
+| -noforcemparms              | Forces the operating system mouse parameters                 |
+
