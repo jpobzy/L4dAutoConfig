@@ -2,9 +2,9 @@
 
 ## Instructions
 1. **Please read through each cfg file in order to fully understand what each command is doing
-2. Copy the files and folders into your games directory: '.../steam/steamapps/common/Left 4 Dead/left4dead/addons'
+2. Copy the files and folders into your games directory: `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
 3. Launch Steam, Library
-4. L4D2 Steam Launch Options: 'Right-click Left 4 Dead >> Properties >> General >> LAUNCH OPTIONS'
+4. L4D2 Steam Launch Options: `Right-click Left 4 Dead >> Properties >> General >> LAUNCH OPTIONS`
 5. Copy and paste the following line into the box: '-novid -console -high -nojoy -useallavailablecores +mat_motion_blur_percent_of_screen_max 0
 
 
@@ -18,7 +18,7 @@
 | -useallavailablecores       | Forces CPU to use all the cores for gaming                   |
 | +mat_motion_blur_percent_of_screen_max 0 | Disables screen being blurred during high motion scenes |
 
-The following settings are optional to use as well: '-lv -noforcemaccel -noforcemspd -noforcemparms'
+The following settings are optional to use as well: `-lv -noforcemaccel -noforcemspd -noforcemparms`
 
 | Optional Settings           | Description                                                  |
 | --------------------------- | ------------------------------------------------------------ |
