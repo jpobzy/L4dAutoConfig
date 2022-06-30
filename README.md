@@ -6,7 +6,7 @@
 3. This folder will be your backup folder in the event you want to revert back to your original settings
 4. If you choose to do so, delete the `cfg` folder and extract the zipped `cfg` folder
 
-
+<br />
 
  ## Instructions 
 1. **Please read through each cfg file in order to fully understand what each command is doing**
