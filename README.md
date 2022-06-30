@@ -62,7 +62,8 @@ The following settings are optional to use as well: `-lv -noforcemaccel -noforce
 | MULTICORE RENDERING         | Enabled                            | Forces CPU to use all cores                          |
 | PAGED POOL MEMORY AVAILABLE | High                               | Maps will load quicker the higher the value          |
 
-7. When you launch the game console should automatically be open, copy and paste `exec config_default.cfg; exec autoexec.cfg`
+7. When you launch the game console should automatically be open, copy and paste `unbindall; exec config_default.cfg; exec autoexec.cfg`
+   -Understand that when you `unbindall`, any binding which you manually did in the past will be removed. You will have to manually reconfigure such bindings again, however if you made a backup copy of the `cfg` folder, those keybinds can be regained by searching for them and re-entering them into the console.
 
 
 
