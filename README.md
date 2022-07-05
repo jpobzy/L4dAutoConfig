@@ -8,15 +8,33 @@
 
 <br />
 
- ## Instructions 
+## VPK Instruction (recommend)
+This option is the easiest and safest method to intall the autoconfig while ensuring that your previous keybinds do not get lost
+   -First download the .VPK file  
+   -Once the file is downloaded open to  `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
+   -Drag the VPK file to the addons folder
+If you choose this method, changing the commands values within the file itself will be a little more tedious however will be explained below
+
+<br />
+
+## Folder Instruction
+This option allows you easier acces to edit a designated file
+  -First download the autoconfig folder
+  -Once the folder is downloaded open to  `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
+  -Drag the folder to the addons folder
+With this method, editing a single file will be easier to navigate to as you just need to go within the folder and edit the file within notepad++
+
+<br />
+   
+## Start Up Instructions 
 1. **Please read through each cfg file in order to fully understand what each command is doing**
-2. Copy the files and folders into your games directory: `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
+2. Either copy the autoconfig folder or move the VPK file into your games directory: `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
 3. Launch Steam, Library
 4. L4D2 Steam Launch Options: `Right-click Left 4 Dead >> Properties >> General >> LAUNCH OPTIONS`
 5. Copy and paste the following line into the box: `-novid -console -high -nojoy -useallavailablecores +mat_motion_blur_percent_of_screen_max 0`
 
 
-
+## Launch Settings
 | Setting                     | Description                                                  | 
 | --------------------------- | ------------------------------------------------------------ |
 | -novid                      | Disables the intro video from playing                        |
@@ -30,7 +48,7 @@
 <br />
 <br />
 
-## Optional Sttings 
+## Optional Settings 
 The following settings are optional to use as well: `-lv -noforcemaccel -noforcemspd -noforcemparms`
 
 | Optional Settings           | Description                                                  |
