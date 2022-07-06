@@ -10,7 +10,7 @@
 
 <br />
 
-## VPK Instruction (recommend)
+## VPK Instructions (recommended)
 This option is the easiest and safest method to intall the autoconfig while ensuring that your previous keybinds do not get lost
    - First download the .VPK file  
    - Once the file is downloaded open to  `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
@@ -19,10 +19,10 @@ If you choose this method, changing the commands values within the file itself w
 
 <br />
 
-## Folder Instruction
+## Folder Instructions
 This option allows you easier acces to edit a designated file
   - First download the autoconfig folder
-  - Once the folder is downloaded open to  `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
+  - Once the folder is downloaded open to  `.../steamapps/common/Left 4 Dead/left4dead/addons`
   - Drag the folder to the addons folder
 With this method, editing a single file will be easier to navigate to as you just need to go within the folder and edit the file within notepad++
 
