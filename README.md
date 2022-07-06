@@ -3,7 +3,7 @@
 
 
 ## Backing up your current config
-1. Go to your Left 4 Dead installation directory `.../steam/steamapps/common/Left 4 Dead/left4dead/`
+1. Go to your Left 4 Dead installation directory `.../steamapps/common/Left 4 Dead/left4dead/`
 2. Right-click the `cfg` folder and click `Send to >> Compressed (zipped) folder`
 3. This folder will be your backup folder in the event you want to revert back to your original settings
 4. If you choose to do so, delete the `cfg` folder and extract the zipped `cfg` folder
@@ -13,7 +13,7 @@
 ## VPK Instructions (recommended)
 This option is the easiest and safest method to intall the autoconfig while ensuring that your previous keybinds do not get lost
    - First download the .VPK file  
-   - Once the file is downloaded open to  `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
+   - Once the file is downloaded open to  `.../steamapps/common/Left 4 Dead/left4dead/addons`
    - Drag the VPK file to the addons folder
 If you choose this method, changing the commands values within the file itself will be a little more tedious however will be explained below
 
