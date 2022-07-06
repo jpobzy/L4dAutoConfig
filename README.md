@@ -1,5 +1,7 @@
 # L4dAutoConfig 
 
+
+
 ## Backing up your current config
 1. Go to your Left 4 Dead 2 installation directory `.../steam/steamapps/common/Left 4 Dead/left4dead/`
 2. Right-click the `cfg` folder and click `Send to >> Compressed (zipped) folder`
@@ -10,18 +12,18 @@
 
 ## VPK Instruction (recommend)
 This option is the easiest and safest method to intall the autoconfig while ensuring that your previous keybinds do not get lost
-   -First download the .VPK file  
-   -Once the file is downloaded open to  `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
-   -Drag the VPK file to the addons folder
+   - First download the .VPK file  
+   - Once the file is downloaded open to  `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
+   - Drag the VPK file to the addons folder
 If you choose this method, changing the commands values within the file itself will be a little more tedious however will be explained below
 
 <br />
 
 ## Folder Instruction
 This option allows you easier acces to edit a designated file
-  -First download the autoconfig folder
-  -Once the folder is downloaded open to  `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
-  -Drag the folder to the addons folder
+  - First download the autoconfig folder
+  - Once the folder is downloaded open to  `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
+  - Drag the folder to the addons folder
 With this method, editing a single file will be easier to navigate to as you just need to go within the folder and edit the file within notepad++
 
 <br />
@@ -81,9 +83,19 @@ The following settings are optional to use as well: `-lv -noforcemaccel -noforce
 | PAGED POOL MEMORY AVAILABLE | High                               | Maps will load quicker the higher the value          |
 
 7. When you launch the game console should automatically be open, copy and paste `unbindall; exec config_default.cfg; exec autoexec.cfg`
-   -Understand that when you `unbindall`, any binding which you manually did in the past will be removed. You will have to manually reconfigure such bindings again, however if you made a backup copy of the `cfg` folder, those keybinds can be regained by searching for them and re-entering them into the console.
+Understand that when you `unbindall`, any binding which you manually did in the past will be removed. You will have to manually reconfigure such bindings again, however if you made a backup copy of the `cfg` folder, those keybinds can be regained by searching for them and re-entering them into the console.
 
+<br /> 
 
+## How to edit the VPK file
+In order to do this it is recommended that you have Notepad++, GCFScape are installed. Once both programs are installed you can view the VPK's contents by right-clicking on the VPK file and opening it with GCFScape. From there you just need to double left click on the file you wish to open and it should automatically open in Notepad++
+
+<br />
+
+## Recomended programs
+Whether you choose to use the folder or VPK edition, here are some recommended programs to help you edit the files should you desire:
+- [Notepad++](https://notepad-plus-plus.org/) to edit each file
+- [GCFScape](https://nemstools.github.io/pages/GCFScape-Download.html) to view the files within a VPK file
 
 ## Extra notes
 -Do not use `USE RECOMMENDED SETTINGS` when choosing your video settings or the game will revert back to 4x3 aspect ratio
