@@ -3,7 +3,7 @@
 
 
 ## Backing up your current config
-1. Go to your Left 4 Dead 2 installation directory `.../steam/steamapps/common/Left 4 Dead/left4dead/`
+1. Go to your Left 4 Dead installation directory `.../steam/steamapps/common/Left 4 Dead/left4dead/`
 2. Right-click the `cfg` folder and click `Send to >> Compressed (zipped) folder`
 3. This folder will be your backup folder in the event you want to revert back to your original settings
 4. If you choose to do so, delete the `cfg` folder and extract the zipped `cfg` folder
