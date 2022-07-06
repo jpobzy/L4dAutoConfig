@@ -1,0 +1,44 @@
+//  ———————————————————————————————————————————————————————————————————————————————————————————
+//                     __                                     ___                 
+//                    /\ \__                                /'___\ __             
+//       __     __  __\ \ ,_\   ___     ___    ___     ___ /\ \__//\_\     __     
+//     /'__`\  /\ \/\ \\ \ \/  / __`\  /'___\ / __`\ /' _ `\ \ ,__\/\ \  /'_ `\   
+//    /\ \L\.\_\ \ \_\ \\ \ \_/\ \L\ \/\ \__//\ \L\ \/\ \/\ \ \ \_/\ \ \/\ \L\ \  
+//    \ \__/.\_\\ \____/ \ \__\ \____/\ \____\ \____/\ \_\ \_\ \_\  \ \_\ \____ \ 
+//     \/__/\/_/ \/___/   \/__/\/___/  \/____/\/___/  \/_/\/_/\/_/   \/_/\/___L\ \
+//                                                                         /\____/
+//                                                                         \_/__/ 
+//     __                   _____                  __                             
+//    /\ \                 /\___ \                /\ \                            
+//    \ \ \____  __  __    \/__/\ \  _____     ___\ \ \____  ____    __  __       
+//     \ \ '__`\/\ \/\ \      _\ \ \/\ '__`\  / __`\ \ '__`\/\_ ,`\ /\ \/\ \      
+//      \ \ \L\ \ \ \_\ \    /\ \_\ \ \ \L\ \/\ \L\ \ \ \L\ \/_/  /_\ \ \_\ \     
+//       \ \_,__/\/`____ \   \ \____/\ \ ,__/\ \____/\ \_,__/ /\____\\/`____ \    
+//        \/___/  `/___/> \   \/___/  \ \ \/  \/___/  \/___/  \/____/ `/___/> \   
+//                   /\___/            \ \_\                             /\___/   
+//                   \/__/              \/_/                             \/__/    
+//    
+//  ——————————————————————————————————————————————————————————————————————————————————————————
+
+//  Filename: addoninfo.txt
+//  Version: 1.0
+//  Author: https://github.com/jpobzy
+//  Source: https://github.com/jpobzy/L4dAutoConfig
+//  License: MIT License
+//  Contact information: https://steamcommunity.com/profiles/76561198855075791/
+  
+//  —————————————————————————————————————————————————————————————————————————————————————————— 
+
+ "AddonInfo"
+{
+	 addonSteamAppID         500                                                     // 500 is the app ID for Left 4 Dead, 550 for Left 4 Dead 2
+	 addontitle              "autoconfig"                            // Add-on title that shows up in Add-ons list. ~20 chars max
+	 addonversion			 "1.0"  												//Add-on version
+	 addontagline 			 "cfg" 							// Add-on tagline or wrap-up- a short description. ~100 chars max
+	 addonURL0               "https://github.com/jpobzy/L4dRemovedMainLobbyMusic" //An html home page for the add-on that includes a download link.
+	 addonauthorSteamID      "https://steamcommunity.com/profiles/76561198855075791/"
+	 addonauthor             "Jpobzy"    
+	 
+	 // short description that appears in the Add-on list screen...
+     addonDescription        "Jpobzy's custom config"
+}
