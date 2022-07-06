@@ -55,7 +55,7 @@ The following settings are optional to use as well: `-lv -noforcemaccel -noforce
 
 | Optional Settings           | Description                                                  |
 | --------------------------- | ------------------------------------------------------------ |
-| -lv                         | Forces the game to launch in low violence mode: no blood/scary effects |
+| -lv                         | Forces the game to launch in low violence mode: no blood/scary effects, increases FPS |
 | -noforcemaccel              | Forces the operating system mouse acceleration               |
 | -noforcemspd                | Forces the operating system mouse speed                      |
 | -noforcemparms              | Forces the operating system mouse parameters                 |
