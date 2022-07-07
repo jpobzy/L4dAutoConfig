@@ -313,6 +313,46 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
+		"DotCenter"
+		{
+			"1"
+			{
+				"name"		"Symbol"
+				"tall"		"35"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "1"
+				"range"		"0x0000 0x017F"
+			}
+		}
+		
+		"DotOuter"
+		{
+			"1"
+			{
+				"name"		"Bradley Hand ITC"
+				"tall"		"18"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "0"
+				"antialias" "1"
+				"range"		"0x0000 0x017F"
+			}
+		}
+		
+		"Cross"
+		{
+			"1"
+			{
+				"name"		"Courier"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"outline"	"1"
+			}
+		}
+
+	
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
