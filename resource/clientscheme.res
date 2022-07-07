@@ -618,7 +618,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Courier New"
+				"name"			"Bradley Hand ITC" //"Courier New"
 				"tall"			"14"
 				"weight"		"400"		[$WIN32]
 				"outline"		"1"			[$WIN32]
@@ -799,7 +799,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	[$WIN32]
 				"tall"		"24"
 				"weight"	"400"
 				"antialias" "1"
@@ -809,7 +809,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC" [$WIN32]
 				"tall"		"18"
 				"weight"	"400"
 				"antialias" "1"
@@ -819,7 +819,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	[$WIN32]
 				"tall"		"18"
 				"weight"	"400"
 				"antialias" "1"
@@ -830,7 +830,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	[$WIN32]
 				"tall"		"12"
 				"weight"	"400"
 				"antialias" "1"
@@ -840,7 +840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	[$WIN32]
 				"tall"		"14"
 				"weight"	"400"
 				"antialias" "1"
@@ -850,7 +850,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	[$WIN32]
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" "1"
@@ -860,7 +860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	[$WIN32]
 				"tall"		"18"
 				"weight"	"400"
 				"antialias" "1"
@@ -871,7 +871,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	[$WIN32]
 				"tall"		"14"
 				"weight"	"400"
 				"antialias" "1"
@@ -1720,6 +1720,7 @@ Scheme
 		"3"     "resource/TG.vfont"
 		"4"     "resource/TGB.vfont"
 		"5"		"resource/HALFLIFE2.vfont"
+		"6"		"resource/symbol.ttf
 	}
 
 }
