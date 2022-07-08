@@ -104,6 +104,8 @@ This config comes with a Dot crosshair enabled but with the original crosshair d
 ## Radial menu
 Three new radial menus have been created and binded for the user. The first one gives a player more vocal commands designated to a specific character while the second one gives the user easier access to the Underworld servers in game commands. The third one gives 4 simple viewmodel commands which only work with the [field of view](https://www.gamemaps.com/details/18483) addon. All 3 can be located in the `L4dAutoConfig/scripts/radialmenu.txt` file.
 
+## Thirdperson
+Thirdperson is normally disabled unless sv_cheats becomes enabled, but now thirdpersonshoulder has been modified to act exactly like thirdperson and can still switch back to thirdpersonshoulder easily.
 
 <br />
 
