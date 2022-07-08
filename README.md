@@ -1,5 +1,25 @@
 # L4dAutoConfig 
 
+## Directory
+- [Backing up your current config](#backing-up-your-current-config)
+- [VPK Instructions](#VPK-Instructions-(recommended))
+- [Folder Instructions](#Folder-Instructions)
+- [Start Up Instructions](#Start-Up-Instructions)
+- [Launch Settings](#Launch-Settings)
+- [Optional Settings](#Optional-Settings)
+- [Video Settings](#Video-Settings)
+- [How to edit the VPK file](#How-to-edit-the-VPK-file)
+- [CONFIG FEATURES](#CONFIG-FEATURES)
+- [Game Font](#Game-Font)
+- [Finding a font](#Finding-a-font)
+- [Adding a different font](#Adding-a-different-font)
+- [Dot Crosshair](#Dot-Crosshair)
+- [Recomended programs](#Recomended-programs)
+- [Extra notes](#Extra-notes)
+
+
+   
+
 
 
 ## Backing up your current config
@@ -92,13 +112,30 @@ In order to do this it is recommended that you have Notepad++, GCFScape are inst
 
 <br />
 
+<br />
+
+## CONFIG FEATURES
+
+## Game Font
+One of the main changes you will initially notice upon installation is that the overall games font is now completely different. The font that is currently installed is `Bradley Hand ITC` whereas the old font consisted of `Verdana`, `Trade Gothic Bold`, `Arial`, and `Trade Gothic`. The new font will completely override everything except the console. To revert back to the old fonts, remove the files `L4dAutoConfig/resource/clientscheme.res` and `L4dAutoConfig/resource/l4d360uischeme.res`. If you desire to change to a different font an explanation will be given below. 
+
+## Finding a font
+If you want to use a different font, the game requires a `.ttf` file. I use [AMP Font Viewer](http://www.ampsoft.net/utilities/FontViewer.php) to view other fonts. Once you find a font open it and make sure to install it to your OS by pressing the `Install` button located in the top left corner. 
+
+
+## Adding a different font
+If there is a different font you desire besides the original or the new one you can go to either files stated in [Game Font](#Game-Font) and ctrl-f "Bradley Hand ITC" and replace EVERY line which has this font name with the name of your font you wish to install. Please not that in order for this to work you NEED to have the commands `mat_setvideomode 1920 1080 1; mat_setvideomode 1920 1080 0` which switches the game from windowed mode, back to fullscreen instantly in order to load some resource files. 
+
+<br />
+
+## Dot Crosshair
+This config comes with a Dot crosshair enabled but with the original crosshair disabled. The dot crosshair can be found in the files `L4dAutoConfig/resource/clientscheme.res` and `L4dAutoConfig/scripts/hudlayout.res`. Customization can be best utilized in the clientscheme file by locating "DotCenter" and "Cross" towards the top of the file and changing the "wide" and "tall" values. You can also change the color by changing "fgcolor_override" value to one of the color values located in the "Colors" section at the top or by giving it your own values. 
+
 ## Recomended programs
 Whether you choose to use the folder or VPK edition, here are some recommended programs to help you edit the files should you desire:
 - [Notepad++](https://notepad-plus-plus.org/) to edit each file
 - [GCFScape](https://nemstools.github.io/pages/GCFScape-Download.html) to view the files within a VPK file
 - [AMP Font Viewer](http://www.ampsoft.net/utilities/FontViewer.php) to view other fonts
-
-
 
 ## Extra notes
 -Do not use `USE RECOMMENDED SETTINGS` when choosing your video settings or the game will revert back to 4x3 aspect ratio
