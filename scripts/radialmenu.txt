@@ -1,0 +1,271 @@
+"RadialMenu"
+{
+	"test,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize scenariojoin"
+			//"command" "+mouse_menu test" //how to link another radial wheel
+			"text"		"hello"
+		}
+		"North"
+		{
+			"command"	"vocalize ConceptBlock051;wait 100;ConceptBlock049; wait 100;Vocalize ConceptBlock050; wait 100;Vocalize ConceptBlock035 "
+			//"command"	"vocalize ConceptBlock051; ConceptBlock049; Vocalize ConceptBlock050; Vocalize ConceptBlock035 "
+			"text"		"what"
+			//"command" "+mouse_menu viewmodel"
+			//"text" "viewmodel"
+		
+		}
+		"NorthEast"
+		{
+			"command"	"Vocalize ConceptBlock515;wait 100; Vocalize ConceptBlock517;wait 100; Vocalize ConceptBlock581; wait 100;Vocalize ConceptBlock654"
+			"text"		"uh hello?"
+		}
+		"East"
+		{
+			"command"	"vocalize ConceptBlock663;  wait 100;Vocalize ConceptBlock697; wait 100; Vocalize TakeShotgunGroovyLouis; wait 100;Vocalize TakeShotgunGroovyZoey"
+			"text"		"whoahoho"
+		}
+		"SouthEast"
+		{
+			"command"	"viewmodel_fov_override 120"
+			"text"		"view model 120"
+		}
+		"South"
+		{
+			"command"	"vocalize Playerdeath"
+			"text"		"death scream"
+		}
+		"SouthWest"
+		{
+			"command"	"viewmodel_fov_override 180"
+			"text"		"view model 180"
+		}
+		"West"
+		{
+			"command"	"vocalize ConceptBlock556; wait 100; Vocalize ConceptBlock697;wait 100; vocalize InfoRemc7m1_pretank02;wait 100; Vocalize c7m1_saferoom10a"
+			"text"		"hey"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize c7m1_saferoom08; wait 100;Vocalize ConceptBlock721; wait 100;Vocalize c7m2_saferoom02d; wait 100;Vocalize ConceptBlock037"
+			"text"		"both of you shut up"
+		}
+	}
+	
+	"underworld,Survivor,Alive"
+	{
+		"Center"
+		{
+
+		}
+		"North"
+		{
+			"command"	"say !csm"
+			"text"		"csm"				
+		}
+		"NorthEast"
+		{
+			"command"	"say !addons"
+			"text"		"addons"
+		}
+		"East"
+		{
+			"command"	"say !drop"
+			"text"		"drop"
+		}
+		"SouthEast"
+		{
+
+		}
+		"South"
+		{
+			"command"	"say !afk"
+			"text"		"!afk"		
+		}
+		"SouthWest"
+		{
+
+		}
+		"West"
+		{
+			"command"	"!join"
+			"text"		"!join"		
+		}
+		"NorthWest"
+		{
+			"command"	"say !menu"
+			"text"		"menu"					
+		}
+	}	
+	
+	"viewmodel,Survivor,Alive"
+	{
+		"Center"
+		{
+			//"command"	"+mouse_menu test"
+			//"text"		"Go back"
+		}
+		"North"
+		{
+			"command"	"viewmodel_fov_override 90"
+			"text"		"view model 90"			
+		}
+
+		"East"
+		{
+			"command"	"viewmodel_fov_override 120"
+			"text"		"view model 120"
+		}
+
+		"South"
+		{
+			"command"	"viewmodel_fov_override 50"
+			"text"		"original, 50"
+		}
+
+		"West"
+		{
+			"command"	"viewmodel_fov_override 180"
+			"text"		"view model 180"
+		}
+
+	}
+
+
+
+
+
+
+	//ORIGINAL RADIAL MENU BELOW
+	//--------------------------------------------------------------
+	"Orders,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize smartlook"
+			"text"		"#L4D_rosetta_look"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerMoveOn"
+			"text"		"#L4D_rosetta_letsgo"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerLeadOn"
+			"text"		"#L4D_rosetta_youtakelead"
+		}	
+		"East"
+		{
+			"command"	"vocalize PlayerHurryUp"
+			"text"		"#L4D_rosetta_hurry"
+		}	
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerNiceJob"
+			"text"		"#L4D_rosetta_nicejob"
+		}	
+		"South"
+		{
+			"command"	"vocalize PlayerWaitHere"
+			"text"		"#L4D_rosetta_waithere"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerAreaClear"
+			"text"		"#L4D_rosetta_clear"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerCoverMe"
+			"text"		"#L4D_rosetta_coverme"
+		}	
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerImWithYou"
+			"text"		"#L4D_rosetta_withyou"
+		}	
+	}
+	//--------------------------------------------------------------
+	"QA,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerAskReady"
+			"text"		"#L4D_rosetta_ready"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerLaugh"
+			"text"		"#L4D_rosetta_laugh"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerWarnCareful"
+			"text"		"#L4D_rosetta_becareful"
+		}
+		"East"
+		{
+			"command"	"vocalize PlayerNegative"
+			"text"		"#L4D_rosetta_negative"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerNo"
+			"text"		"#L4D_rosetta_no"
+		}
+		"South"
+		{
+			"command"	"vocalize PlayerSorry"
+			"text"		"#L4D_rosetta_sorry"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerYes"
+			"text"		"#L4D_rosetta_yes"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerHurrah"
+			"text"		"#L4D_rosetta_hurrah"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerThanks"
+			"text"		"#L4D_rosetta_thankyou"
+		}
+	}
+	
+	//--------------------------------------------------------------
+	"Orders,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"label"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"QA,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Alerts,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+}
