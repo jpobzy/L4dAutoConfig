@@ -1,12 +1,10 @@
 # L4dAutoConfig 
-
-
-
+ 
 ## Backing up your current config
+Please back up your current configurations just in case in the event that you want to reuse old commands/binds and you do not remember the exact values.
 1. Go to your Left 4 Dead installation directory `.../steamapps/common/Left 4 Dead/left4dead/`
-2. Right-click the `cfg` folder and click `Send to >> Compressed (zipped) folder`
-3. This folder will be your backup folder in the event you want to revert back to your original settings
-4. If you choose to do so, delete the `cfg` folder and extract the zipped `cfg` folder
+2. Right-click the `cfg` folder and copy and paste it into a seperate folder where you can easily access it
+3. This folder will be your backup folder in the event you want to revert back to your original settings or need to find old settings
 
 <br />
 
@@ -92,13 +90,30 @@ In order to do this it is recommended that you have Notepad++, GCFScape are inst
 
 <br />
 
+<br />
+
+## CONFIG FEATURES
+
+## Game Font
+One of the main changes you will initially notice upon installation is that the overall games font is now completely different. The font that is currently installed is `Bradley Hand ITC` whereas the old font consisted of `Verdana`, `Trade Gothic Bold`, `Arial`, and `Trade Gothic`. The new font will completely override everything except the console. To revert back to the old fonts, remove the files `L4dAutoConfig/resource/clientscheme.res` and `L4dAutoConfig/resource/l4d360uischeme.res`. If you desire to change to a different font an explanation will be given below. 
+
+## Finding a font
+If you want to use a different font, the game requires a `.ttf` file. I use [AMP Font Viewer](http://www.ampsoft.net/utilities/FontViewer.php) to view other fonts. Once you find a font open it and make sure to install it to your OS by pressing the `Install` button located in the top left corner. 
+
+
+## Adding a different font
+If there is a different font you desire besides the original or the new one you can go to either files stated in [Game Font](#Game-Font) and ctrl-f "Bradley Hand ITC" and replace EVERY line which has this font name with the name of your font you wish to install. Please not that in order for this to work you NEED to have the commands `mat_setvideomode 1920 1080 1; mat_setvideomode 1920 1080 0` which switches the game from windowed mode, back to fullscreen instantly in order to load some resource files. 
+
+<br />
+
+## Dot Crosshair
+This config comes with a Dot crosshair enabled but with the original crosshair disabled. The dot crosshair can be found in the files `L4dAutoConfig/resource/clientscheme.res` and `L4dAutoConfig/scripts/hudlayout.res`. Customization can be best utilized in the clientscheme file by locating "DotCenter" and "Cross" towards the top of the file and changing the "wide" and "tall" values. You can also change the color by changing "fgcolor_override" value to one of the color values located in the "Colors" section at the top or by giving it your own values. 
+
 ## Recomended programs
 Whether you choose to use the folder or VPK edition, here are some recommended programs to help you edit the files should you desire:
 - [Notepad++](https://notepad-plus-plus.org/) to edit each file
 - [GCFScape](https://nemstools.github.io/pages/GCFScape-Download.html) to view the files within a VPK file
 - [AMP Font Viewer](http://www.ampsoft.net/utilities/FontViewer.php) to view other fonts
-
-
 
 ## Extra notes
 -Do not use `USE RECOMMENDED SETTINGS` when choosing your video settings or the game will revert back to 4x3 aspect ratio
