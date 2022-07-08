@@ -96,6 +96,9 @@ In order to do this it is recommended that you have Notepad++, GCFScape are inst
 Whether you choose to use the folder or VPK edition, here are some recommended programs to help you edit the files should you desire:
 - [Notepad++](https://notepad-plus-plus.org/) to edit each file
 - [GCFScape](https://nemstools.github.io/pages/GCFScape-Download.html) to view the files within a VPK file
+- [AMP Font Viewer](http://www.ampsoft.net/utilities/FontViewer.php) to view other fonts
+
+
 
 ## Extra notes
 -Do not use `USE RECOMMENDED SETTINGS` when choosing your video settings or the game will revert back to 4x3 aspect ratio
