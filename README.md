@@ -102,7 +102,7 @@ If you want to use a different font, the game requires a `.ttf` file. I use [AMP
 
 
 ## Adding a different font
-If there is a different font you desire besides the original or the new one you can go to either files stated in [Game Font](#Game-Font) and ctrl-f "Bradley Hand ITC" and replace EVERY line which has this font name with the name of your font you wish to install. Please not that in order for this to work you NEED to have the commands `mat_setvideomode 1920 1080 1; mat_setvideomode 1920 1080 0` which switches the game from windowed mode, back to fullscreen instantly in order to load some resource files. 
+If there is a different font you desire besides the original or the new one you can go to the files stated in [Game Font](#Game-Font) and ctrl-f "Bradley Hand ITC" and replace EVERY line which has this font name with the name of your font you wish to install. Please not that in order for this to work you NEED to have the commands `mat_setvideomode 1920 1080 1; mat_setvideomode 1920 1080 0` which switches the game from windowed mode, back to fullscreen instantly in order to load some resource files. `Clientscheme` will only change the in game font while `l4d360uischeme` will change the main menu font.
 
 <br />
 
