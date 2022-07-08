@@ -26,7 +26,7 @@
 		"ypos"			"c-23"
 		"wide"			"24"
 		"tall"			"27"
-		"fgcolor_override" 	"blue"	//"255 255 255 255"
+		"fgcolor_override" 	"white"	//"255 255 255 255"
 	}
 	
 	//crosshair
