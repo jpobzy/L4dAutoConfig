@@ -1,27 +1,5 @@
 # L4dAutoConfig 
-
-## Directory
-- [Backing up your current config](#backing-up-your-current-config)
-- [VPK Instructions](#VPK-Instructions-(recommended))
-- [Folder Instructions](#Folder-Instructions)
-- [Start Up Instructions](#Start-Up-Instructions)
-- [Launch Settings](#Launch-Settings)
-- [Optional Settings](#Optional-Settings)
-- [Video Settings](#Video-Settings)
-- [How to edit the VPK file](#How-to-edit-the-VPK-file)
-- [CONFIG FEATURES](#CONFIG-FEATURES)
-- [Game Font](#Game-Font)
-- [Finding a font](#Finding-a-font)
-- [Adding a different font](#Adding-a-different-font)
-- [Dot Crosshair](#Dot-Crosshair)
-- [Recomended programs](#Recomended-programs)
-- [Extra notes](#Extra-notes)
-
-
-   
-
-
-
+ 
 ## Backing up your current config
 1. Go to your Left 4 Dead installation directory `.../steamapps/common/Left 4 Dead/left4dead/`
 2. Right-click the `cfg` folder and click `Send to >> Compressed (zipped) folder`
