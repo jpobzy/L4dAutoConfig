@@ -101,6 +101,8 @@ One of the main changes you will initially notice upon installation is that the 
 ## Dot Crosshair
 This config comes with a Dot crosshair enabled but with the original crosshair disabled. The dot crosshair can be found in the files `L4dAutoConfig/resource/clientscheme.res` and `L4dAutoConfig/scripts/hudlayout.res`. Customization can be best utilized in the clientscheme file by locating "DotCenter" and "Cross" towards the top of the file and changing the "wide" and "tall" values. You can also change the color by changing "fgcolor_override" value to one of the color values located in the "Colors" section at the top or by giving it your own values. 
 
+## Radial menu
+Three new radial menus have been created and binded for the user. The first one gives a player more vocal commands designated to a specific character while the second one gives the user easier access to the Underworld servers in game commands. The third one gives 4 simple viewmodel commands which only work with the [field of view](https://www.gamemaps.com/details/18483) addon. All 3 can be located in the `L4dAutoConfig/scripts/radialmenu.txt` file.
 
 
 <br />
