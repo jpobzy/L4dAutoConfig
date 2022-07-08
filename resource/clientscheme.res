@@ -362,7 +362,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"12"    [$WIN32]
 				"tall"		"14"    [$X360]
 				"weight"	"400"
@@ -374,7 +374,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -386,7 +386,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -398,7 +398,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -408,7 +408,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -418,7 +418,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"18"
 				"weight"	"700"
 				"antialias"	"1"
@@ -428,7 +428,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"18"
 				"weight"	"700"
 				"antialias"	"1"
@@ -439,7 +439,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"18"
 				"weight"	"700"
 				"antialias"	"1"
@@ -450,7 +450,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"12"
 				"weight"	"400"
 				"antialias"	"1"
@@ -460,7 +460,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"18"    [$WIN32]
 				"tall"		"24"    [$X360]
 				"weight"	"700"
@@ -471,7 +471,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"12"
 				"weight"	"400"
 			}
@@ -480,7 +480,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"12"
 				"weight"	"700"
 				"dropshadow"	"1"
@@ -490,7 +490,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"10"
 				"weight"	"400"
 			}
@@ -499,7 +499,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"14"
 				"weight"	"400"
 				"antialias" "1"
@@ -509,7 +509,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"16"
 				"weight"	"400"
 				"underline" "1"
@@ -519,7 +519,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"12"    [$WIN32]
 				"tall"		"14"    [$X360]
 				"weight"	"400"
@@ -531,7 +531,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC" //Futurot.ttf
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"  //Futurot.ttf
 				"tall"		"15"
 				"weight"	"400"
 				"antialias"	"1"
@@ -541,7 +541,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"16"
 				"weight"	"1000"
 				"additive"	"1"
@@ -554,7 +554,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"11"
 				"weight"	"700"
 				"antialias" "1"
@@ -567,7 +567,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"11"
 				"weight"	"700"
 				"antialias" "1"
@@ -577,7 +577,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"11"
 				"weight"	"700"
 				"antialias" "1"
@@ -587,7 +587,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"12"
 				"weight"	"900"
 				"antialias" "1"
@@ -596,7 +596,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"16"
 				"weight"	"900"
 				"antialias" "1"
@@ -605,7 +605,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"17"
 				"weight"	"1000"
 				"antialias" "1"
@@ -632,7 +632,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Bradley Hand ITC"
+				"name"  "Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"  "60"
 				"weight" "700"
 				"additive" "0"
@@ -666,7 +666,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Bradley Hand ITC"
+				"name"  "Bradley Hand ITC"	//"Trade Gothic"
 				"tall"  "28"
 				"weight" "400"
 				"additive" "1"
@@ -678,7 +678,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Bradley Hand ITC"
+				"name"  "Bradley Hand ITC"	//"Trade Gothic"
 				"tall"  "38"
 				"weight" "400"
 				"additive" "1"
@@ -690,7 +690,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Bradley Hand ITC"
+				"name"  "Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"  "18"
 				"weight" "0"
 				"additive" "1"
@@ -702,7 +702,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Bradley Hand ITC"
+				"name"  "Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"  "24"
 				"weight" "0"
 				"additive" "1"
@@ -714,7 +714,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Bradley Hand ITC"
+				"name"  "Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"  "18"
 				"weight" "0"
 				"additive" "1"
@@ -726,7 +726,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Bradley Hand ITC"
+				"name"  "Bradley Hand ITC"	//"Trade Gothic"
 				"tall"  "14"
 				"weight" "400"
 				"additive" "1"
@@ -738,7 +738,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Tahoma"
 				"tall"		"26"
 				"weight"	"500"
 			}
@@ -747,7 +747,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Tahoma"
 				"tall"		"26"
 				"weight"	"500"
 				"italic"	"1"
@@ -757,7 +757,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Tahoma"
 				"tall"		"26"
 				"weight"	"900"
 			}
@@ -766,7 +766,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Tahoma"
 				"tall"		"26"
 				"weight"	"900"
 				"italic"	"1"
@@ -776,7 +776,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Tahoma"
 				"tall"		"16"
 				"tall_hidef"	"24"
 				"weight"	"900"
@@ -799,7 +799,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"	[$WIN32]
+				"name"		"Bradley Hand ITC"	[$WIN32]	//"Trade Gothic"
 				"tall"		"24"
 				"weight"	"400"
 				"antialias" "1"
@@ -809,7 +809,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC" [$WIN32]
+				"name"		"Bradley Hand ITC" [$WIN32]	//"Trade Gothic Bold"
 				"tall"		"18"
 				"weight"	"400"
 				"antialias" "1"
@@ -819,7 +819,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"	[$WIN32]
+				"name"		"Bradley Hand ITC"	[$WIN32]	//"Trade Gothic Bold"
 				"tall"		"18"
 				"weight"	"400"
 				"antialias" "1"
@@ -830,7 +830,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"	[$WIN32]
+				"name"		"Bradley Hand ITC"	[$WIN32]	//"Trade Gothic"
 				"tall"		"12"
 				"weight"	"400"
 				"antialias" "1"
@@ -840,7 +840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"	[$WIN32]
+				"name"		"Bradley Hand ITC"	[$WIN32]	//"Trade Gothic"
 				"tall"		"14"
 				"weight"	"400"
 				"antialias" "1"
@@ -850,7 +850,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"	[$WIN32]
+				"name"		"Bradley Hand ITC"	[$WIN32]	//"Trade Gothic"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" "1"
@@ -860,7 +860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"	[$WIN32]
+				"name"		"Bradley Hand ITC"	[$WIN32]	//"Trade Gothic Bold"
 				"tall"		"18"
 				"weight"	"400"
 				"antialias" "1"
@@ -871,7 +871,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"	[$WIN32]
+				"name"		"Bradley Hand ITC"	[$WIN32]	//"Trade Gothic Bold"
 				"tall"		"14"
 				"weight"	"400"
 				"antialias" "1"
@@ -884,7 +884,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"16"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -895,7 +895,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic"
 				"tall"		"16"
 				"weight"	"900"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -980,7 +980,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Verdana"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -988,7 +988,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Verdana"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -997,7 +997,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Verdana"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1006,7 +1006,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Verdana"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1015,7 +1015,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Verdana"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1024,14 +1024,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Verdana"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Arial"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -1042,7 +1042,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"20"
 				"weight"	"800"
 				"antialias"	"1"
@@ -1053,7 +1053,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Bradley Hand ITC"
+				"name"			"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"			"20"
 				"weight"		"800"
 				"blur"			"3"
@@ -1720,7 +1720,7 @@ Scheme
 		"3"     "resource/TG.vfont"
 		"4"     "resource/TGB.vfont"
 		"5"		"resource/HALFLIFE2.vfont"
-		"6"		"resource/symbol.ttf
+		"6"		"resource/symbol.ttf	//"resource/marlett.ttf" [$OSX]
 	}
 
 }
