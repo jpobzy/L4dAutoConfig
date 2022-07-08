@@ -1,7 +1,18 @@
 
 "Resource/HudLayout.res"
 {
-	
+	//////////////////////// COLORS ///////////////////////////
+	Colors
+	{
+		//the color values go as following: ALPHA, RED, GREEN, BLUE
+		//recomemended that alpha is always 255
+		"red" 	"255 255 0 0"
+		"green" "255 0 255 0"
+		"blue" 	"255 0 0 255"
+		"white" "255 255 255 255"
+		"black" "255 0 0 0"
+		"cyan" 	"255 125 255 0"
+	}
 	DotCenter
 	{
 		"controlName"		"Label"
@@ -15,7 +26,7 @@
 		"ypos"			"c-23"
 		"wide"			"24"
 		"tall"			"27"
-		"fgcolor_override" 	"255 255 255 255"
+		"fgcolor_override" 	"blue"	//"255 255 255 255"
 	}
 	
 	//crosshair
