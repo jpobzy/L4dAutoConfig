@@ -300,7 +300,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"14"
 				"weight"	"400"
 				"antialias"	"1"
@@ -311,7 +311,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"12"
 				"weight"	"400"
 				"antialias"	"1"
@@ -322,7 +322,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"12"
 				"weight"	"400"
 				"antialias"	"1"
@@ -333,7 +333,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"12"
 				"weight"	"400"
 				"blur"		"3"
@@ -345,7 +345,7 @@ Scheme
 		{
 			"1" [$X360]
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"18" [$ENGLISH]
 				"tall"		"18" [$FRENCH]
 				"tall"		"18" [$GERMAN]
@@ -365,7 +365,7 @@ Scheme
 			}
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"14"
 				"weight"	"400"
 				"antialias"	"1"
@@ -376,7 +376,7 @@ Scheme
 		{
 			"1" [$X360]
 			{
-				"name"			"Bradley Hand ITC"
+				"name"			"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"			"18" [$ENGLISH]
 				"tall"			"18" [$FRENCH]
 				"tall"			"18" [$GERMAN]
@@ -397,7 +397,7 @@ Scheme
 			}
 			"1"
 			{
-				"name"			"Bradley Hand ITC"
+				"name"			"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"			"14"
 				"weight"		"400"
 				"blur"			"3"
@@ -409,7 +409,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"18"
 				"weight"	"400"
 				"antialias"	"1"
@@ -420,7 +420,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"20"
 				"weight"	"400"
 				"antialias"	"1"
@@ -431,7 +431,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Bradley Hand ITC"
+				"name"			"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"			"20"
 				"weight"		"400"
 				"blur"			"3"
@@ -444,7 +444,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bradley Hand ITC"
+				"name"		"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"		"14"
 				"weight"	"400"
 				"antialias"	"1"
@@ -455,7 +455,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Bradley Hand ITC"
+				"name"			"Bradley Hand ITC"	//"Trade Gothic Bold"
 				"tall"			"14"
 				"weight"		"400"
 				"blur"			"3"
