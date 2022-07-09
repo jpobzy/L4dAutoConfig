@@ -127,6 +127,6 @@ Whether you choose to use the folder or VPK edition, here are some recommended p
 - [AMP Font Viewer](http://www.ampsoft.net/utilities/FontViewer.php) to view other fonts
 
 ## Extra notes
--Do not use `USE RECOMMENDED SETTINGS` when choosing your video settings or the game will revert back to 4x3 aspect ratio
-
+- Do not use `USE RECOMMENDED SETTINGS` when choosing your video settings or the game will revert back to 4x3 aspect ratio
+- No mouse settings will be touched or configured with
 
