@@ -27,7 +27,7 @@ With this method, editing a single file will be easier to navigate to as you jus
 <br />
    
 ## Start Up Instructions 
-1. **Please read through each cfg file in order to fully understand what each command is doing**
+1. **Please read thoroughly through each cfg file in order to fully understand what each command is doing**
 2. Either copy the autoconfig folder or move the VPK file into your games directory: `.../steam/steamapps/common/Left 4 Dead/left4dead/addons`
 3. Launch Steam, Library
 4. L4D2 Steam Launch Options: `Right-click Left 4 Dead >> Properties >> General >> LAUNCH OPTIONS`
@@ -106,6 +106,9 @@ Three new radial menus have been created and binded for the user. The first one 
 
 ## Thirdperson
 Thirdperson is normally disabled unless sv_cheats becomes enabled, but now thirdpersonshoulder has been modified to act exactly like thirdperson and can still switch back to thirdpersonshoulder easily.
+
+## Quick Connect 
+Commands have been made to connect to the underworld servers more easily by typing either `uw1` or `uw2`
 
 <br />
 
