@@ -10,11 +10,9 @@
 		}
 		"North"
 		{
-			"command"	"vocalize ConceptBlock051;wait 100;ConceptBlock049; wait 100;Vocalize ConceptBlock050; wait 100;Vocalize ConceptBlock035 "
+			"command"	"vocalize ConceptBlock051;wait 100; ConceptBlock049; wait 100;Vocalize ConceptBlock050; wait 100;Vocalize ConceptBlock035 "
 			//"command"	"vocalize ConceptBlock051; ConceptBlock049; Vocalize ConceptBlock050; Vocalize ConceptBlock035 "
 			"text"		"what"
-			//"command" "+mouse_menu viewmodel"
-			//"text" "viewmodel"
 		
 		}
 		"NorthEast"
@@ -28,9 +26,9 @@
 			"text"		"whoahoho"
 		}
 		"SouthEast"
-		{
-			"command"	"viewmodel_fov_override 120"
-			"text"		"view model 120"
+		{			
+			"command"	"Vocalize c7m1_saferoom01a; wait 100; Vocalize ConceptBlock697 "
+			"text"		"shut up francis"
 		}
 		"South"
 		{
@@ -39,8 +37,8 @@
 		}
 		"SouthWest"
 		{
-			"command"	"viewmodel_fov_override 180"
-			"text"		"view model 180"
+			"command"	"viewmodel_fov_override 120"
+			"text"		"view model 120"	
 		}
 		"West"
 		{
@@ -58,7 +56,7 @@
 	{
 		"Center"
 		{
-
+			"text"		"underworld"	
 		}
 		"North"
 		{
@@ -68,16 +66,17 @@
 		"NorthEast"
 		{
 			"command"	"say !addons"
-			"text"		"addons"
+			"text"		"!addons"
 		}
 		"East"
 		{
 			"command"	"say !drop"
-			"text"		"drop"
+			"text"		"!drop"
 		}
 		"SouthEast"
 		{
-
+			"command"	"say !slots11"
+			"text"		"!slots11"		
 		}
 		"South"
 		{
@@ -86,7 +85,8 @@
 		}
 		"SouthWest"
 		{
-
+			"command"	"say !slots9"
+			"text"		"!slots9"		
 		}
 		"West"
 		{
@@ -95,8 +95,8 @@
 		}
 		"NorthWest"
 		{
-			"command"	"say !menu"
-			"text"		"menu"					
+			"command"	"say !votemenu"
+			"text"		"!votemenu"					
 		}
 	}	
 	
@@ -104,8 +104,6 @@
 	{
 		"Center"
 		{
-			//"command"	"+mouse_menu test"
-			//"text"		"Go back"
 		}
 		"North"
 		{
@@ -134,8 +132,199 @@
 	}
 
 
+	"bill,Survivor,Alive"
+	{
+		"Center"
+		{
+			"text"	"Bill"
+		}
+		"North"
+		{
+			"command"	"vocalize DontBeAnAss"
+			"text"		"Don’t be an ass, Francis"			
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize ConceptBlock051"
+			"text"		"What?"	
+		}
+		"East"
+		{
+			"command"	"vocalize ConceptBlock515"
+			"text"		"Hello?"	
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize ConceptBlock556"
+			"text"		"Hey!"	
+		}
+		"South"
+		{
+			"command"	"vocalize ConceptBlock715"
+			"text"		"*Short Laugh*"			
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize ConceptBlock663"
+			"text"		"Whoa-ho-ho"	
+		}
+		"West"
+		{
+			"command"	"vocalize c7m1_saferoom08"
+			"text"		"Both of you shut up"	
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize c7m1_saferoom01a"
+			"text"		"Shut up, Francis"				
+		}
+	}
+	
+	"zoey,Survivor,Alive"
+	{
+		"Center"
+		{
+			"text"	"Zoey"		
+		}
+		"North"
+		{
+			"command"	"vocalize ConceptBlock035"
+			"text"		"What?"			
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize ConceptBlock037"
+			"text"		"What a dick"	
+		}
+		"East"
+		{
+			"command"	"vocalize IntroCrashR09"
+			"text"		"What the hell?"	
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize CrashCourseR01"
+			"text"		"Birds are dicks"	
+		}
+		"South"
+		{
+	
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize c7m1_saferoom10a"
+			"text"		"Sure. Whatever"	
+		}
+		"West"
+		{
+			"command"	"vocalize TakeShotgunGroovyZoey"
+			"text"		"Groovy"	
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize CrashCourseR12"
+			"text"		"Man, I love steam"				
+		}
+	}
+	
+	
+	"louis,Survivor,Alive"
+	{
+		"Center"
+		{
+			"text"	"Louis"	
+		}
+		"North"
+		{
+			"command"	"vocalize ConceptBlock017 "
+			"text"		"What?"			
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize ConceptBlock050"
+			"text"		"What?"	
+		}
+		"East"
+		{
+			"command"	"vocalize ConceptBlock581"
+			"text"		"Hello?"	
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize ConceptBlock650"
+			"text"		"[Short laugh]"	
+		}
+		"South"
+		{
+	
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize c7m1_saferoom12"
+			"text"		"I'm pissed too!"	
+		}
+		"West"
+		{
+			"command"	"vocalize c7m2_saferoom02d"
+			"text"		"Bill's an idiot"	
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize ConceptBlock652"
+			"text"		"[Nervous whistling]"			
+		}
+	}
+	
 
-
+	"francis,Survivor,Alive"
+	{
+		"Center"
+		{
+			"text"	"Francis"
+		}
+		"North"
+		{
+			"command"	"vocalize c7m3_saferoom017g "
+			"text"		"Dumbass island"			
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize ConceptBlock697"
+			"text"		"Whatever?"	
+		}
+		"East"
+		{
+			"command"	"vocalize ConceptBlock049"
+			"text"		"What?"	
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize ConceptBlock721"
+			"text"		"Go to hell"	
+		}
+		"South"
+		{
+			"command"	"vocalize ConceptBlock517"
+			"text"		"Hello?"	
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize c7m3_saferoom004b"
+			"text"		"Nerd"	
+		}
+		"West"
+		{
+			"command"	"vocalize IntroCrashR29"
+			"text"		"Wait. WHAT happened?"	
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize CrashCourseR09"
+			"text"		"This is the one you wanna die in?"			
+		}
+	}	
+	
+	
 
 
 	//ORIGINAL RADIAL MENU BELOW
