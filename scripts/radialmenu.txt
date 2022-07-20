@@ -5,13 +5,11 @@
 		"Center"
 		{
 			"command"	"vocalize scenariojoin"
-			//"command" "+mouse_menu test" //how to link another radial wheel
 			"text"		"hello"
 		}
 		"North"
 		{
 			"command"	"vocalize ConceptBlock051;wait 100; ConceptBlock049; wait 100;Vocalize ConceptBlock050; wait 100;Vocalize ConceptBlock035 "
-			//"command"	"vocalize ConceptBlock051; ConceptBlock049; Vocalize ConceptBlock050; Vocalize ConceptBlock035 "
 			"text"		"what"
 		
 		}
@@ -140,23 +138,26 @@
 		}
 		"North"
 		{
-			"command"	"vocalize DontBeAnAss"
-			"text"		"Don’t be an ass, Francis"			
-		}
-		"NorthEast"
-		{
+
+			
 			"command"	"vocalize ConceptBlock051"
 			"text"		"What?"	
+			
 		}
-		"East"
+		"NorthEast"
 		{
 			"command"	"vocalize ConceptBlock515"
 			"text"		"Hello?"	
 		}
+		"East"
+		{
+			"command"	"vocalize ConceptBlock663"
+			"text"		"Whoa-ho-ho"	
+		}
 		"SouthEast"
 		{
-			"command"	"vocalize ConceptBlock556"
-			"text"		"Hey!"	
+			"command"	"vocalize c7m1_saferoom01a"
+			"text"		"Shut up, Francis"		
 		}
 		"South"
 		{
@@ -165,18 +166,18 @@
 		}
 		"SouthWest"
 		{
-			"command"	"vocalize ConceptBlock663"
-			"text"		"Whoa-ho-ho"	
+			"command"	"vocalize DontBeAnAss"
+			"text"		"Don’t be an ass, Francis"		
 		}
 		"West"
 		{
-			"command"	"vocalize c7m1_saferoom08"
-			"text"		"Both of you shut up"	
+			"command"	"vocalize ConceptBlock556"
+			"text"		"Hey!"				
 		}
 		"NorthWest"
 		{
-			"command"	"vocalize c7m1_saferoom01a"
-			"text"		"Shut up, Francis"				
+			"command"	"vocalize c7m1_saferoom08"
+			"text"		"Both of you shut up"			
 		}
 	}
 	
@@ -193,8 +194,8 @@
 		}
 		"NorthEast"
 		{
-			"command"	"vocalize ConceptBlock037"
-			"text"		"What a dick"	
+			"command"	"vocalize scenariojoin"
+			"text"		"hello"
 		}
 		"East"
 		{
@@ -208,7 +209,8 @@
 		}
 		"South"
 		{
-	
+			"command"	"vocalize ConceptBlock037"
+			"text"		"What a dick"		
 		}
 		"SouthWest"
 		{
@@ -256,7 +258,8 @@
 		}
 		"South"
 		{
-	
+		"command"	"Vocalize PlaneCrashResponse"
+		"text"		"Whoa"	
 		}
 		"SouthWest"
 		{
