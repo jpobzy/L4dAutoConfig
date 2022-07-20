@@ -287,8 +287,8 @@
 		}
 		"North"
 		{
-			"command"	"vocalize c7m3_saferoom017g "
-			"text"		"Dumbass island"			
+			"command"	"vocalize ConceptBlock049"
+			"text"		"What?"	
 		}
 		"NorthEast"
 		{
@@ -297,8 +297,8 @@
 		}
 		"East"
 		{
-			"command"	"vocalize ConceptBlock049"
-			"text"		"What?"	
+			"command"	"vocalize c7m3_saferoom017g "
+			"text"		"Dumbass island"				
 		}
 		"SouthEast"
 		{
