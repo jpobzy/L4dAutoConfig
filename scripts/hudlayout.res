@@ -383,10 +383,10 @@
 	HudWeaponSelection
 	{
 		"fieldName" "HudWeaponSelection"
-		"xpos"	"r98"
-		"ypos"	"c-75"
+		"xpos"	"c122"	//"r98"
+		"ypos"	"c-10"	//"c-75"
 		"wide"	"100"
-		"tall"	"160"
+		"tall"	"20"	//"160"
 		"visible" "1"
 		"enabled" "1"
 		"usetitlesafe" "1"
@@ -404,12 +404,12 @@
 		"BoxGap" "1"
 		"BoxDirection" "0"	// 0 is up, 1 is down, 2 is left, 3 is right
 
-		"SelectionNumberXPos" "4"
-		"SelectionNumberYPos" "4"
-		"SelectionGrowTime"	"0.4"
+		"SelectionNumberXPos" "0"	//"4"
+		"SelectionNumberYPos" "0"	//"4"
+		"SelectionGrowTime"	"0"		//"0.4"
 
 		"Ammo1XPos"	"55"
-		"Ammo1YPos"	"4"
+		"Ammo1YPos"	"24"
 
 		"Ammo2XPos"	"58"
 		"Ammo2YPos"	"5"
@@ -426,23 +426,23 @@
 		// 360 mode
 		"PrimaryWeaponsYPos"	"10"
 				
-		"PrimaryWeaponBoxWide"	"53"
-		"PrimaryWeaponBoxTall"	"24"
+		"PrimaryWeaponBoxWide"	"-999"	//"53"
+		"PrimaryWeaponBoxTall"	"0"	//"24"
 		
-		"ReserveAmmoYPos"	"5"
+		"ReserveAmmoYPos"	"6"	//"5"
 		
-		"PrimaryWeaponWide"		"60"
-		"PrimaryWeaponTall"		"20"
+		"PrimaryWeaponWide"		"-999"	//"60"
+		"PrimaryWeaponTall"		"-999"	//"20"
 		
-		"PrimaryWeaponAmmoX"	"38"
+		"PrimaryWeaponAmmoX"	"60"	//"38"
 		
 		"PrimaryBindingYPos"	"43"
 		
-		"PistolBoxWide"	"53"
-		"PistolBoxTall"	"24"
-				
+		"PistolBoxWide"	"-9999"	//"53"
+		"PistolBoxTall"	"0"		//"24"
+	
 		"RightSideIndent"	"10"
-		"IconSize"		"24"	// square weapon icon sizes
+		"IconSize"		"-999"	// square weapon icon sizes	//"24"
 		
 		"ReserveAmmoColor"		"128 128 128 255"
 		"InactiveItemColor"		"90 90 90 255"		[$WIN32]
