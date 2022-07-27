@@ -97,7 +97,6 @@ In order to do this it is recommended that you have Notepad++, GCFScape are inst
 ## Game Font
 One of the main changes you will initially notice upon installation is that the overall game font is now completely different. The font that is currently installed is `Bradley Hand ITC` whereas the old font consisted of `Verdana`, `Trade Gothic Bold`, `Arial`, and `Trade Gothic`. The new font will completely override everything except the console. To revert back to the old fonts, remove the files `L4dAutoConfig/resource/clientscheme.res` and `L4dAutoConfig/resource/l4d360uischeme.res`. If you desire to change to a different font an explanation will be given below. 
 
-
 ## Dot Crosshair
 This config comes with a Dot crosshair enabled but with the original crosshair disabled. The dot crosshair can be found in the files `L4dAutoConfig/resource/clientscheme.res` and `L4dAutoConfig/scripts/hudlayout.res`. Customization can be best utilized in the clientscheme file by locating "DotCenter" and "Cross" towards the top of the file and changing the "wide" and "tall" values. You can also change the color by changing "fgcolor_override" value to one of the color values located in the "Colors" section at the top or by giving it your own values. 
 
@@ -105,11 +104,13 @@ This config comes with a Dot crosshair enabled but with the original crosshair d
 Multiple radial wheels have been added to give the user an easier experience with using underworld server commands and using character vocalizations and more. One gives a player more vocal commands designated to a specific character while the another one gives the user easier access to the Underworld servers in game commands. Another gives 4 simple viewmodel commands which only work with the [field of view](https://www.gamemaps.com/details/18483) addon. All of them can be located in the `L4dAutoConfig/scripts/radialmenu.txt` file.
 
 ## Thirdperson
-Thirdperson is normally disabled unless sv_cheats becomes enabled, but now thirdpersonshoulder has been modified to act exactly like thirdperson and can still switch back to thirdpersonshoulder easily.
+Thirdperson is normally disabled unless sv_cheats becomes enabled, but now thirdpersonshoulder has been modified to act exactly like thirdperson and can still switch back to thirdpersonshoulder settings easily.
 
 ## Underworld Quick Connect 
-Commands have been made to connect to the underworld servers more easily by typing either `uw1` or `uw2`
+Commands have been made to connect to the underworld servers more easily by typing either `uw1` or `uw2` into the console. 
 
+## Hudweapon Layout
+`HudWeaponSelection` in `Hudlayout` file has now been modified so now only the Primary weapon's ammo and reserve ammo counts as well as the secondary weapons ammo is visible and shifted more towards the middle of the screen. Any indication of the granade, medkit, and pills information has also been removed for a more clean hud. Original values can be found commented out next to the new values in the event the user wants to revert back to old settings.  
 
 
 <br />
