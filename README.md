@@ -95,7 +95,7 @@ In order to do this it is recommended that you have Notepad++, GCFScape are inst
 ## CONFIG FEATURES
 
 ## Game Font
-One of the main changes you will initially notice upon installation is that the overall games font is now completely different. The font that is currently installed is `Bradley Hand ITC` whereas the old font consisted of `Verdana`, `Trade Gothic Bold`, `Arial`, and `Trade Gothic`. The new font will completely override everything except the console. To revert back to the old fonts, remove the files `L4dAutoConfig/resource/clientscheme.res` and `L4dAutoConfig/resource/l4d360uischeme.res`. If you desire to change to a different font an explanation will be given below. 
+One of the main changes you will initially notice upon installation is that the overall game font is now completely different. The font that is currently installed is `Bradley Hand ITC` whereas the old font consisted of `Verdana`, `Trade Gothic Bold`, `Arial`, and `Trade Gothic`. The new font will completely override everything except the console. To revert back to the old fonts, remove the files `L4dAutoConfig/resource/clientscheme.res` and `L4dAutoConfig/resource/l4d360uischeme.res`. If you desire to change to a different font an explanation will be given below. 
 
 
 ## Dot Crosshair
