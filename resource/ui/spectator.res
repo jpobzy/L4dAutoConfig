@@ -1,4 +1,4 @@
-"Resource/UI/SpectatorSurvivor.res"
+"Resource/UI/SpectatorGUI.res"
 {
 	"specgui"
 	{
@@ -14,63 +14,28 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
-	"death"
+
+	"topbar"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"death"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-	}
-	
-	"HeaderBackground"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"HeaderBackground"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"topbar"
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
-	"SkullIcon"
-	{		
-		"ControlName"		"CIconPanel"
-		"fieldName"			"SkullIcon"
-		"visible"			"0"
-		"enabled"			"0"
-	}
-
-	"DeathMessage"
+	"bottombar"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"DeathMessage"
-		"wide"			"0"		//must be 0 or "Label" will be on top right
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bottombar"
 		"visible"		"0"
 		"enabled"		"0"
 	}
-
-	"RescueMessage"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"RescueMessage"
-		"wide"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	
 	"playerlabel"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"playerlabel"
-		"xpos"			"r280"
-		"ypos"			"35"
-		"wide"			"216"
+		"xpos"			"r378"
+		"ypos"			"30"
+		"wide"			"320"
 		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -78,14 +43,6 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"textAlignment"	"east"
-	}
-
-	"FooterBackground" //black background on bottom
-	{
-		"ControlName"		"Panel"
-		"fieldName"			"FooterBackground"
-		"visible"			"0"		
-		"enabled"			"0"
 	}
 
 	"Survivor1"
@@ -104,6 +61,11 @@
 		"autoresize"		"0"
 		"zpos"				"55"
 		"usetitlesafe"		"1"
+		
+		"if_split_screen_active"
+		{
+			"visible"	"0"
+		}
 	}
 
 	"Survivor2"
@@ -122,6 +84,11 @@
 		"autoresize"		"0"
 		"zpos"				"55"
 		"usetitlesafe"		"1"
+		
+		"if_split_screen_active"
+		{
+			"visible"	"0"
+		}
 	}
 
 	"Survivor3"
@@ -140,6 +107,11 @@
 		"autoresize"		"0"
 		"zpos"				"55"
 		"usetitlesafe"		"1"
+		
+		"if_split_screen_active"
+		{
+			"visible"	"0"
+		}
 	}
 
 	"Survivor4"
@@ -158,31 +130,19 @@
 		"autoresize"		"0"
 		"zpos"				"55"
 		"usetitlesafe"		"1"
+		
+		"if_split_screen_active"
+		{
+			"visible"	"0"
+		}
 	}
 
-	"InfoIcon"
-	{
-		"ControlName"		"CIconPanel"
-		"fieldName"			"InfoIcon"
-		"visible"			"0"
-		"enabled"			"0"
-	}
-	
-	"InfoIconBackground"
-	{
-		"ControlName"		"Panel"
-		"fieldName"			"InfoIconBackground"
-		//"wide"				"17"
-		"visible"			"0"
-		"enabled"			"0"
-	}
-
-	"TipText"
+	"RescueMessage" // suppress
 	{
 		"ControlName"		"Label"
-		"fieldName"			"TipText"
-		//"wide"				"300"
-		"visible"			"0"
-		"enabled"			"0"
+		"fieldName"		"RescueMessage"
+		"visible"	"0"
+		"wide"		"0"
+		"tall"		"0"
 	}
 }
