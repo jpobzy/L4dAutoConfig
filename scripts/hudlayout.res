@@ -26,7 +26,7 @@
 		"ypos"			"c-23"
 		"wide"			"24"
 		"tall"			"27"
-		"fgcolor_override" 	"white"	//"255 255 255 255"
+		"fgcolor_override" 	"white"	
 	}
 	
 	//crosshair
@@ -118,7 +118,6 @@
 		"enabled" "1"
 		"xpos"		"c-220"
 		"ypos"		"-10"	[$WIN32]
-		"ypos"		"20"	[$X360]
 		"zpos"		"0"
 		"wide"	 "440"
 		"tall"	 "100"
@@ -192,10 +191,6 @@
 		"fieldName" "HudProgressBar"
 		"xpos"	"c-114"
 		"ypos"	"c10"
-		"if_split_screen_active"
-		{
-			"ypos"	"c-10"
-		}
 		"wide"	"300"
 		"tall"  "45"
 		"visible" "1"
@@ -390,12 +385,6 @@
 		"visible" "1"
 		"enabled" "1"
 		"usetitlesafe" "1"
-		
-		"if_split_screen_horizontal"
-		{
-			"ypos"	"0"
-			"tall"	"140"
-		}
 
 		"LargeBoxWide" "150"
 		"LargeBoxTall" "32"
@@ -446,7 +435,6 @@
 		
 		"ReserveAmmoColor"		"128 128 128 255"
 		"InactiveItemColor"		"90 90 90 255"		[$WIN32]
-		"InactiveItemColor"		"55 55 55 255"		[$X360]
 		
 		"PrimaryAmmoFont"		"HudAmmoLarge"		[$WIN32]
 	}
@@ -556,25 +544,10 @@
 		"enabled"	"1"
 		"xpos"		"c-150"
 		"ypos"		"r220"	[$WIN32]
-		"ypos"		"r230"	[$X360]
 		"wide"		"300"
 		"tall"		"135"
 		"usetitlesafe"	"1"
 		
-		"if_split_screen_vertical"
-		{
-			"ypos"		"r160"
-			"tall"		"108"
-		}
-		
-		"if_split_screen_horizontal"
-		{
-			"xpos"		"0"
-			"ypos"		"r220"
-			"wide"		"275"
-			"tall"		"108"
-		}
-
 		"BgAlpha"	"128"
 
 		"GrowTime"		"0.25"
@@ -659,11 +632,6 @@
 		"ability_charging_color" "127 127 127 255"
 		"ability_ready_color" "255 255 255 255"
 		"usetitlesafe"	"1"
-		
-  		"if_split_screen_left"
-		{
-			"xpos"	"-8"
-		}
 	}
 	"HudZombieHealth"
 	{
@@ -675,11 +643,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"usetitlesafe"	"1"	// 2
-		  		
-  		"if_split_screen_left"
-		{
-			"xpos"	"1"
-		}
 	}
 	CBudgetPanel
 	{
@@ -727,11 +690,6 @@
 		"tall" "24"
 		
 		"usetitlesafe"	"1"
-		
-		"if_split_screen_left"
-		{
-			"xpos"	"100"
-		}
 	}
 
 	HudVoiceStatus
@@ -888,16 +846,6 @@
 		"ypos"		"r91"
 		"wide"		"150"
 		"tall"		"320"
-		
-		"if_split_screen_left"
-		{
-			"xpos"	"0"
-		}
-		
-		"if_split_screen_top"
-		{
-			"ypos"	"r90"
-		}
 	}
 
 	CHudTeamDisplay
@@ -912,19 +860,6 @@
 		"ypos"		"r75"
 		"wide"		"f0"
 		"tall"		"100"
-		
-		"if_split_screen_horizontal"
-		{
-			"ypos"	"c-59"		
-		}
-		
-		"if_split_screen_vertical"
-		{
-			"xpos"			"c-300"	
-			"wide"			"600"
-			"tall"			"100"
-			"usetitlesafe"	"1"
-		}
 	}
 
 	HudFinaleMeter
@@ -976,21 +911,6 @@
 		"wide"			"320"
 		"tall"			"155"
 		"PaintBackgroundType"	"2"
-		
-		"if_split_screen_horizontal"
- 		{
- 			"ypos"	"c-45"			
-  		}
-  		
-  		"if_split_screen_left"
-		{
-			"xpos"	"c-145"
-		}
-		
-		"if_split_screen_right"
-		{
-			"xpos"	"c-175"
-		}
 	}
 
  	HudGhostPanel
@@ -1005,21 +925,6 @@
 		"WhiteText"		"192 192 192 255"
 		"RedText"		"246 5 5 255"
 		"padding"		"4"
-		
- 		"if_split_screen_horizontal"
- 		{
-			"ypos"	"c-45"			
-  		}
-  		
-  		"if_split_screen_left"
-		{
-			"xpos"	"c-145"
-		}
-		
-		"if_split_screen_right"
-		{
-			"xpos"	"c-205"
-		}
 	}
 
 	HudCredits
@@ -1105,18 +1010,6 @@
 		"usetitlesafe" "1"
 		
 		"label_textalign"		"west"
-		
-		"if_split_screen_horizontal"
- 		{
-			"ypos"	"20"
-			"label_textalign"		"west"
-  		}
-  		
-  		"if_split_screen_vertical"
- 		{
-			"ypos"	"20"
-			"label_textalign"		"center"
-  		}
 	}
 	
 	StatsCrawl
@@ -1124,12 +1017,6 @@
 		"fieldName" "StatsCrawl"
 		"visible" "1"
 		"enabled" "1"
-		
-		"vote_bot_inset_x" "150"	[$X360]
-		"vote_bot_inset_y" "75"		[$X360]
-
-		"skip_legend_inset_x"	"70"	[$X360]
-		"skip_legend_inset_y"	"55"	[$X360]
 		
 		"vote_bot_inset_x" "90"		[$WIN32]
 		"vote_bot_inset_y" "45"		[$WIN32]
@@ -1158,15 +1045,5 @@
 		
 		"VertPanelSpacing"   "45"
 		"HorizPanelSpacing"   "140"
-		
-		"if_split_screen_horizontal"
-		{
-			"ypos"	"c-59"		
-		}
-		
-		"if_split_screen_vertical"
-		{
-			"xpos"	"c-140"
-		}
 	}
 }
