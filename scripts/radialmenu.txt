@@ -129,6 +129,68 @@
 
 	}
 
+	"viewmodel,Survivor,Dead"
+	{
+		"Center"
+		{
+		}
+		"North"
+		{
+			"command"	"viewmodel_fov_override 90"
+			"text"		"view model 90"			
+		}
+
+		"East"
+		{
+			"command"	"viewmodel_fov_override 120"
+			"text"		"view model 120"
+		}
+
+		"South"
+		{
+			"command"	"viewmodel_fov_override 50"
+			"text"		"original, 50"
+		}
+
+		"West"
+		{
+			"command"	"viewmodel_fov_override 180"
+			"text"		"view model 180"
+		}
+
+	}
+	
+	"viewmodel,Spectator"
+	{
+		"Center"
+		{
+		}
+		"North"
+		{
+			"command"	"viewmodel_fov_override 90"
+			"text"		"view model 90"			
+		}
+
+		"East"
+		{
+			"command"	"viewmodel_fov_override 120"
+			"text"		"view model 120"
+		}
+
+		"South"
+		{
+			"command"	"viewmodel_fov_override 50"
+			"text"		"original, 50"
+		}
+
+		"West"
+		{
+			"command"	"viewmodel_fov_override 180"
+			"text"		"view model 180"
+		}
+
+	}
+
 
 	"bill,Survivor,Alive"
 	{
