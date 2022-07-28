@@ -135,7 +135,7 @@
 		"tooltiptext"				"#L4D360UI_MainMenu_Underworld1_Tip"
 		"disabled_tooltiptext"		"#L4D360UI_MainMenu_Underworld1_Tip_Disabled"
 		"style"						"MainMenuButton"
-		"command"					"connect 85.114.151.173:27015"
+		"command"					"#toggleconsole; connect 85.114.151.173:27015"
 		"ActivationType"			"1"
 		"FocusDisabledBorderSize"	"1"	
 	}
@@ -160,7 +160,7 @@
 		"tooltiptext"				"#L4D360UI_MainMenu_Underworld2_Tip"
 		"disabled_tooltiptext"		"#L4D360UI_MainMenu_Underworld2_Tip_Disabled"
 		"style"						"MainMenuButton"
-		"command"					"connect 89.163.187.47:27015"
+		"command"					"#con_enable 1; toggleconsole; connect 89.163.187.47:27015"//"toggleconsole; connect 89.163.187.47:27015"
 		"ActivationType"			"1"
 		"FocusDisabledBorderSize"	"1"	
 	}
