@@ -112,6 +112,12 @@ Commands have been made to connect to the underworld servers more easily by typi
 ## Hudweapon Layout
 `HudWeaponSelection` in `Hudlayout` file has now been modified so now only the Primary weapon's ammo and reserve ammo counts as well as the secondary weapons ammo is visible and shifted more towards the middle of the screen. Any indication of the granade, medkit, and pills information has also been removed for a more clean hud. Original values can be found commented out next to the new values in the event the user wants to revert back to old settings.  
 
+## Mainmenu re-design
+The main menu has been redesigned to help the user join both servers with a click of a button
+
+## Semi-translucent chat
+The chat window has been edited to be more translucent
+
 
 <br />
 
